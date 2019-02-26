@@ -11,8 +11,9 @@
 
 
 <!------------------------------------------------------------------->
- <!--head-->
- <!------------------------------------------------------------------->  
+<!--head-->
+<!------------------------------------------------------------------->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,8 +44,8 @@
 
 
 <!------------------------------------------------------------------->
- <!--header-->
- <!------------------------------------------------------------------->  
+<!--header-->
+<!------------------------------------------------------------------->
 <header>
 
     <!------------------------------------------------------------------->
@@ -78,9 +79,10 @@
 </header>
 
 
- <!------------------------------------------------------------------->
- <!--body-->
- <!------------------------------------------------------------------->   
+<!------------------------------------------------------------------->
+<!--body-->
+<!------------------------------------------------------------------->
+
 <body>
 
 
@@ -93,12 +95,12 @@
         <!--Main Content-->
         <!------------------------------------------------------------------->
 
-        <div class="mainContentBlock">
+        <div class="mainContentBlock" style="height:600px">
             <!------------------------------------------------------------------->
             <!--Title-->
             <!------------------------------------------------------------------->
             <div style="height: 45px">
-                <h1>About Me</h1>
+                <h1>Contact</h1>
             </div>
             <div style="padding:20px">
                 <hr style="border-width:3px">
@@ -106,30 +108,32 @@
 
 
             <!------------------------------------------------------------------->
-            <!--About Me Block-->
+            <!--Contact Block-->
             <!------------------------------------------------------------------->
 
+            <form style="margin-left: 20px; margin-right:20px">
 
+                <!--Name-->
+                <div class="form-group">
+                    <label for="inputName">Name</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="name">
+                </div>
 
-            <!------------------------------------------------------------------->
-            <!--Image-->
-            <!------------------------------------------------------------------->
-            <!-- <img src="" style="float:left; width: 150px; height:150px; margin:20px">
-            <p style="margin-left:20px; margin-right:20px">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Doloribus rem eveniet corrupti nam voluptas,
-                pariatur itaque exercitationem beatae nesciunt, et <br><br> maxime deleniti sed laborum. Nesciunt porro
-                asperiores
-                consectetur a voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vero sunt
-                rem
-                consequuntur odio ab doloribus aspernatur<br><br> adipisci dolorem natus vitae, non, sint possimus
-                quibusdam porro molestiae
-                quae voluptatibus labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-                accusantium beatae Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias corporis suscipit 
-                nemo voluptates, dolores nobis <br><br>temporibus optio, sint aperiam at rerum dignissimos labore mollitia harum laborum inventore dolorum quis quisquam.
-                vero facilis dignissimos maxime laudantium ea exercitationem natus ratione tempore accusamus officia
-                aliquid non
-                √libero provident, veniam odio numquam.</p> -->
+                <!--Email-->
+                <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="email">
+                </div>
 
+                <!--Message-->
+                <div class="form-group">
+                    <label for="messageTextArea">Message:</label>
+                    <textarea class="form-control" rows="8" id="messageTextArea"></textarea>
+                  </div>
+
+                <!--Submit button-->
+                <button type="submit" class="btn btn-primary" style="background: #4aaaa5; width: 150px">Submit</button>
+            </form>
 
         </div>
 
@@ -141,11 +145,12 @@
 </body>
 
 <!------------------------------------------------------------------->
- <!--footer-->
- <!------------------------------------------------------------------->  
+<!--footer-->
+<!------------------------------------------------------------------->
 <footer class="fixed-bottom">
-        <hr style="border-width:10px; margin-bottom: 0px; background:teal">
-    <div class="footer-copyright text-center py-3" style="height:75px; background:#666666; color: white">Copyright &#9400
+    <hr style="border-width:10px; margin-bottom: 0px; background:teal">
+    <div class="footer-copyright text-center py-3" style="height:75px; background:#666666; color: white">Copyright
+        &#9400
     </div>
 </footer>
 
