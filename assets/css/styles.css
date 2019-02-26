@@ -4,8 +4,14 @@ Style sheet for Bootstrap portfolio
 
 */
 
+h1 {
+    text-align: left; 
+    padding-left:20px; 
+    padding-top:20px; 
+    color:#4aaaa5
+}
 .yourNameDiv {
-    background:teal;
+    background:#4aaaa5;
     color:white; 
     font-weight: bold; 
     font-size:20px; 
@@ -15,18 +21,28 @@ Style sheet for Bootstrap portfolio
     text-align: center;
 }
 
-.mainContentBlock{
-    background: #ffffff;
+.bodyBkg{
+    background: #cccccc;
     border-style:  inset;
     border-width: 2px;
     border-right-style: none;
     border-left-style: none;
-    height: auto;
-    width: auto;
-    
+    height: 900px;
+    width: 100%; 
+    background-size: cover;
+    background-image: url("../images/backgroundImg.png");
+    background-position: center;
 
 }
 
+.mainContentBlock {
+    background: #ffffff;
+    width: 960px;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
 .footerStyle {
 
 }
