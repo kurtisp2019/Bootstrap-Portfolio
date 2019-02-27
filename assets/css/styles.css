@@ -15,6 +15,18 @@ h1 {
     padding-top:20px; 
     color:#4aaaa5
 }
+
+.portfolioLinkImgTag {
+    text-align:center;
+    position:relative; 
+    width:150px; 
+    height:30px; 
+    margin-top:80px; 
+    background:#4aaaa5;
+    padding-top: 3px;
+    font-size: 14px;
+    color: #ffffff;
+}
 .yourNameDiv {
     background:#4aaaa5;
     color:white; 
@@ -43,41 +55,41 @@ h1 {
 .mainContentBlock {
     background: #ffffff;
     width: 960px;
-    height: 500px;
+    height: auto;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 100px;
+    padding-bottom:30px;
 }
 .footerStyle {
 
 }
 
 /* Medium Screens*/
-@media screen and (max-width: 970px){
+/* @media screen and (max-width: 970px){
     header {
         background-color: white;
     }
     body {
         background-color: red;
     }
-}
+} */
 
 /* Small Screens*/
 @media screen and (max-width: 750px){
-    header {
-        background-color: white;
+    .mainContentBlock {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
     }
-    body {
-        background-color: purple;
-    }
+    
 }
 
 /* Extra Small Screens*/
-@media screen and (max-width: 540px){
-    header {
-        background-color: white;
-    }
-    body {
-        background-color: green;
-    }
+/* @media screen and (max-width: 540px){
+    .mainContentBlock {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    } */
 }
