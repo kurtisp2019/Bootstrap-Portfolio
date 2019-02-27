@@ -17,6 +17,11 @@ h1 {
     color:#4aaaa5
 }
 
+.portfolioLinkImg{
+    box-sizing: border-box;
+    height:125px; 
+    width:150px;
+}
 .portfolioLinkImgTag {
     text-align:center;
     position:relative; 
@@ -24,7 +29,6 @@ h1 {
     height:30px; 
     margin-top:80px; 
     background:#4aaaa5;
-    padding-top: 3px;
     font-size: 14px;
     color: #ffffff;
 }
